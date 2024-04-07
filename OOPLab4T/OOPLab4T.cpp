@@ -5,7 +5,7 @@ private:
     double x;
     double y;
     double z;
-
+     
 public:
     enum State { NORMAL, ZERO_VECTOR };
     //конструктор без параметрів
