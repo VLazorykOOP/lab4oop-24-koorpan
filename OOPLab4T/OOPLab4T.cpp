@@ -15,7 +15,7 @@ public:
     //деструктор
     ~Vector3D() {
         cout << "Об*єкт Vector3D знищено" << std::endl;
-    }
+    } 
     //перевантаження операції присвоєння
     Vector3D& operator=(const Vector3D& other) {
         if (this != &other) {
