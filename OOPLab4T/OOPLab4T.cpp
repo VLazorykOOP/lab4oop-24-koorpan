@@ -59,7 +59,7 @@ public:
     }
     bool operator!=(const Vector3D& other) const {
         return !(*this == other);
-    }
+    } 
     //перевантаження функції виклику ()
     void operator()() const {
         std::cout << "(" << x << ", " << y << ", " << z << ")" << std::endl;
