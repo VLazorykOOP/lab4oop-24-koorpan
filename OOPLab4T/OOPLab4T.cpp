@@ -4,7 +4,7 @@ class Vector3D {
 private:
     double x;
     double y;
-    double z;
+    double z; 
       
 public:
     enum State { NORMAL, ZERO_VECTOR };
